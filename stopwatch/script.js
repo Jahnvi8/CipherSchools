@@ -4,7 +4,7 @@ let n;
 
 document.getElementById("start").addEventListener("click", () => {
     n = setInterval(displayTime, 15);
-});
+}); 
 
 document.getElementById("pause").addEventListener("click", () => {
     clearInterval(n);
